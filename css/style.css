@@ -1,0 +1,149 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: var(--text-color);
+    margin: 0 auto;
+    }
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+    }
+ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    }
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    }
+.container {
+    width: 100%;
+    padding: 0px, 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    }
+/* variables */
+:root {
+    --main-color: #84A178;
+    --text-color: #FCFCFC;
+    --shape-color: #F8D24E;
+}
+
+/* HOW IT"S MADE SECTION */
+.about {
+    margin: 0;
+    background-color: var(--main-color);
+}
+.about__uppertitle {
+    margin-top: 0;
+    margin-bottom: 12px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+
+    line-height: 1.22;
+    text-align: center;
+    text-transform: uppercase;   
+}
+.about__title {
+    font-family: 'Seymour One', 'sans-serif';
+    font-weight: 400;
+    font-size: 30px;
+
+    line-height: 1.27;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    text-transform: uppercase;
+    width: 200px;
+
+    margin: 0;
+    margin-bottom: 32px;
+}
+.about__inline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about__shape {
+    margin: 0;
+    margin-bottom: 40px;
+}
+.about__uppertext {
+    margin: 0;
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.75;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+    width: 220px;
+}
+.about__text {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.58;
+
+    text-align: center;
+    width: 220px;
+}
+.about__button {
+    margin: 0;
+    margin-bottom: 42px;
+}
+
+/* HIDDEN TITLE SECTION */
+.advantages {
+    background-color: #84A178;
+}
+.advantages__point {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+
+    margin-top: 0;
+    margin-bottom: 18px;
+    
+}
+
+.advantages__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.advantages__item:not(:last-child) {
+    margin-bottom: 18px;
+}
+.advantages__circle {
+    display: block;
+    background: var(--shape-color);
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 16px;
+}
+.advantages__text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.67;
+
+    text-align: center;
+    width: 230px;
+    margin: 0;
+}

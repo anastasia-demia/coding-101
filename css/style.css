@@ -1,4 +1,4 @@
-
+/* general styles */
 body {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -33,6 +33,7 @@ img {
     max-width: 100%;
     height: auto;
     }
+
 /* variables */
 :root {
     --main-color: #84A178;
